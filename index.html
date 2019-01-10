@@ -1,9 +1,48 @@
-<!DOCTYPE HTML>
-<html>
-    <head>
-        <title>Hello World</title>
-    </head>
-    <body>
-        <h1>Hello World</h1>
-    </body>
-</html>
+<!DOCTYPE html>
+<!--
+   Peerapong Peter Saksommon
+   October 14, 2018
+   CSE 154 Section AC
+   This is the index.html page which consist a canvas that will work as
+   a playground for my user to play disco worm on.
+   -->
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <title>Disco Worm</title>
+      <link rel="stylesheet" href="index.css">
+      <script src="index.js"></script>
+   </head>
+   <body>
+      <header>
+         <h1>Disco Worm The Game</h1>
+         <hr>
+      </header>
+      <main id="main">
+         <canvas id="canvas"></canvas>
+         <h2 id="score">Score: 000000</h2>
+         <button id="start">Start</button>
+         <p id="speed" class="speed-option">Speed
+         <p>
+            <label id="slow" class="speed-option">
+            <input id="slow-input" checked="checked" type="radio" name="speed" value="5">Slow
+            </label>
+            <label id="normal" class="speed-option">
+            <input id="normal-input" type="radio" name="speed" value="10">Normal
+            </label>
+            <label id="fast" class="speed-option">
+            <input id="fast-input" type="radio" name="speed" value="15">Fast
+            </label>
+      </main>
+      <footer>
+         <hr>
+         <p> Every parts of this page owned by &copy; 2018 Peerapong Saksommon</p>
+         <p id="check">
+            <a href="http://jigsaw.w3.org/css-validator/check/referer">
+            <img style="border:0;width:88px;height:31px"
+               src="http://jigsaw.w3.org/css-validator/images/vcss"
+               alt="Valid CSS!" />
+            </a>
+         </p>
+      </footer>
+   </body>
