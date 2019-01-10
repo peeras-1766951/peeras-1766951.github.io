@@ -1,0 +1,185 @@
+/* Peerapong Peter Saksommon */
+ @import url('https://fonts.googleapis.com/css?family=Anton|Indie+Flower|Mali');
+ body {
+     font-family: 'Anton', sans-serif;
+    /* This image was found on https://www.innovationgames.com/spider-web/
+       And thus owned by Conteneo Inc. */
+     background-image: url(../images/spiderweb.png), url(../images/spiderweb.png);
+     background-repeat: repeat-y,repeat-y;
+     background-position: left,right;
+     background-size: 17%;
+}
+ body p,h1,blockquote,button {
+     color: whitesmoke;
+}
+ header ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+    /* This image was found on https://pngtree.com/freebackground/spiderman-background_382693.html
+       And thus under this license agreement https://pngtree.com/copyright-notice */
+     background-image: url(../images/menubar.jpg);
+     background-size:cover;
+     position: fixed;
+     width: 90%;
+     border-bottom: 5px solid white;
+}
+ header li {
+     float: left;
+}
+ header li button {
+     font-family: 'Indie Flower', cursive;
+     font-size: 40px;
+     padding: 30px;
+     background: inherit;
+     display: block;
+     text-align: center;
+     border: 0;
+     margin: 0;
+     text-decoration: none;
+}
+ header li button:hover {
+     background-color: #4F4240;
+     opacity: 0.8;
+     cursor: pointer;
+}
+ header li:last-child {
+     float: right;
+}
+ body, footer header {
+     width: 90%;
+     margin: auto auto;
+}
+ section {
+     background-image: radial-gradient(red,darkred);
+     width: inherit;
+}
+ #blockin{
+     margin-top: 100px;
+     text-align: center;
+     font-size: 30px;
+     border-bottom: 5px solid black;
+     padding: 10px;
+}
+ #icon{
+     background-color: inherit;
+     border: 0;
+     float:left;
+     margin-top: 100px;
+     margin-left: 100px;
+     cursor: pointer;
+}
+ #convo{
+     float: left;
+     margin-top: 220px;
+     margin-left: 20px;
+     font-size: 40px;
+     width: 60%;
+     color: whitesmoke;
+}
+ #villains_header{
+     margin-top: 140px;
+     margin-left: 200px;
+     margin-bottom: 0;
+     text-align: center;
+     width: 70%;
+     font-size: 40px;
+}
+ #starter {
+     height: 700px;
+}
+ .profile_picture{
+     text-align: center;
+     display: inline-flex;
+     flex-wrap: wrap;
+     vertical-align: top;
+     margin-top: 10px;
+}
+ .profile_picture img{
+     width: 300px;
+     height: 200px;
+     padding: 50px;
+}
+ .profile_picture p{
+     margin-top: 200px;
+     font-size: 30px;
+}
+ .profile_picture img:hover{
+     cursor: pointer;
+}
+ .Profile{
+     display: inline-flex;
+     padding: 30px;
+     margin-top: 100px;
+     height: 700px;
+}
+ .Profile img{
+     margin-top: 150px;
+     width: 400px;
+     height: 300px;
+}
+ .Profile h2{
+     margin-top: 140px;
+     font-size: 40px;
+     padding: 10px;
+     height: 60px;
+     width: 150px;
+     margin-left: 30px;
+}
+ .Profile p{
+     font-family: 'Mali', cursive;
+     margin-top: 230px;
+     margin-left: -120px;
+     font-size: 25px;
+     background-color: black;
+     padding: 30px;
+}
+ #villains_header{
+     text-align: center;
+     flex-wrap: wrap;
+}
+ #Kingpin_Profile p{
+     height: 150px;
+}
+ #Rhino_Profile p{
+     height: 70px;
+     height: 100px;
+}
+ #Scorpion_Profile p{
+     height: 220px;
+}
+ #Electro_Profile p{
+     height: 150px;
+}
+ #Vulture_Profile p{
+     height: 140px
+}
+ #Shocker_Profile p{
+     height: 150px;
+}
+ footer{
+     padding: 10px;
+    /* This image was found on https://pngtree.com/freebackground/spiderman-background_382693.html
+       And thus under this license agreement https://pngtree.com/copyright-notice */
+     background-image: url(../images/menubar.jpg);
+     background-size: cover;
+     width: 88.8%;
+     bottom: 0;
+     text-align: center;
+     position: fixed;
+     border-top: 5px solid white;
+     display: flex;
+}
+ footer p {
+     margin: 0;
+     padding: 0;
+     vertical-align: middle;
+     font-size: 25px;
+}
+ #cpr {
+     margin-left: 250px;
+}
+ #check {
+     margin-left: 80px;
+}
