@@ -1,8 +1,4 @@
-/* Peerapong Peter Saksommon
-   October 8, 2018
-   CSE 154 Section AC
-   This is the Javascript scriptsheet for my index page.
-*/
+/* Peerapong Peter Saksommon */
 (function () {
 	"use strict";
 
