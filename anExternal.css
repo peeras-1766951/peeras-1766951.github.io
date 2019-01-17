@@ -1,29 +1,37 @@
-Newbie p1 {
+#Newbie p1 {
     font-family: Verdana;
 }
 
-Newbie p2 {
+#Newbie p2 {
     font-family: Helvetica;
 }
-Newbie img {
+#Newbie img {
     width: 50px;
     height: 50px;
 }
 
-Apprentice img {
+#Apprentice img {
     width: 270px;
     height: 220px;
     margin: 20px;
 }
 
-Apprentice p {
+#Apprentice p {
     border: 2px;
     border-style: dotted;
     position: absolute;
+    left: 80px;
+    top: 430px;
+    font: 100px;
+    font-weight: bold;
+    color: black;
 }
 
-Master ball {
+#Master #ball {
+    float: left;
+    width: 100px;
+    height: 100px;
     background-color: pink;
     border: 5px solid black;
-    border-radius: 0.35em;
+    border-radius: 10em;
 }
