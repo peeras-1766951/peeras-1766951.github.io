@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Coiny');
+
 #Newbie p1 {
     font-family: Verdana;
 }
 
 #Newbie p2 {
-    font-family: Helvetica;
+    font-family: 'Coiny', cursive;;
 }
 #Newbie img {
     width: 50px;
